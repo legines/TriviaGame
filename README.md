@@ -1,15 +1,19 @@
 # TriviaGame
 
-You'll create a trivia game that shows only one question until the player answers it or their time runs out.
+A trivia game that shows only one question until the player answers it or their time runs out.
 
-1. If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question -- do this without user input.
+1. If the player selects the correct answer, a congratulations screen is shown. After a few seconds, display the next question -- do this without user input.
 
     * The scenario is similar for wrong answers and time-outs.
 
-1. If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
+1. If the player runs out of time, the correct answer is displayed and 'Times Up' is also displayed.
 
-1. If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. 
+    * Wait a few seconds, then show the next question.
+
+1. If the player chooses the wrong answer, the right answer is displayed and a message telling the player they chose the wrong answer is displayed. 
 
     * Wait a few seconds, then show the next question.
     
-1. On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
+1. On the final screen the number of incorrect and correct answers are shown
+
+    *. Also an option to restart the game (without reloading the page).
