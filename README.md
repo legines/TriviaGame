@@ -4,7 +4,7 @@ A trivia game that shows only one question until the player answers it or their 
 
 1. If the player selects the correct answer, a congratulations screen is shown. 
 
-   *. After a few seconds the next question is displayed without user input.
+   * After a few seconds the next question is displayed without user input.
 
    * The scenario is similar for wrong answers and time-outs.
 
