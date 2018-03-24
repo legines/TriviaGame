@@ -2,9 +2,11 @@
 
 A trivia game that shows only one question until the player answers it or their time runs out.
 
-1. If the player selects the correct answer, a congratulations screen is shown. After a few seconds, display the next question -- do this without user input.
+1. If the player selects the correct answer, a congratulations screen is shown. 
 
-    * The scenario is similar for wrong answers and time-outs.
+   *. After a few seconds the next question is displayed without user input.
+
+   * The scenario is similar for wrong answers and time-outs.
 
 1. If the player runs out of time, the correct answer is displayed and 'Times Up' is also displayed.
 
