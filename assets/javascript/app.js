@@ -1,4 +1,4 @@
-//Creating all game variables
+// Creating all game variables
 var wireTrivia = [{
   question: "Which one of these people was not part of Barksdale's crew?",
   answers: ["Wee-Bey","Poot","McNulty","D'Angelo"],
@@ -39,9 +39,17 @@ var wireTrivia = [{
   question: "Cheese was played by?",
   answers: ["Jay Z","Method Man","Mos Def","RZA"],
   correct: 2
+}, {
+  question: "Why was Cutty regarded as a man by Avon?",
+  answers: ["He just got out of prison","He represented the OG's","He was a good soldier","The game wasn't in him anymore"],
+  correct: 4
+},{
+  question: "Where's Wallace String? Where's the boy String?",
+  answers: ["Locked up","Dead","With his grandparents","Hiding out"],
+  correct: 2
 }];
 
-var wireGif = ["question1", "question2", "question3", "question4", "question5", "question6", "question7", "question8", "question9", "question10",];
+var wireGifs = ["question1", "question2", "question3", "question4", "question5", "question6", "question7", "question8", "question9", "question10", "question11", "question12"];
 
 var message = {
   right: "Correct!",
@@ -58,3 +66,32 @@ var seconds;
 var time;
 var answered;
 var userChoice;
+
+// Game start and Restart events
+$("#startBtn").on("click", function(){
+  $(this).hide();
+  restart();
+})
+
+$("#restartBtn").on("click", function(){
+  $(this).hide();
+  restart();
+})
+
+// Game functions
+function restart(){
+  $("#finalDisplay").empty();
+  $("#incorrectAnswers").empty();
+  $("#correctAnswers").empty();
+  $("#noAnswer").empty();
+  $("#restartGame").empty();
+  currentQuestion = 0;
+  rightAnswer = 0;
+  wrongAnswer = 0;
+  noAnswer = 0;
+  nextQuestion();
+}
+
+function nextQuestion(){
+
+}
