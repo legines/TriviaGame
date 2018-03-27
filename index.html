@@ -5,18 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>The Wire Trivia!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
+
 <body>
-  
+  <div class="container">
+    <button class="btn btn-primary" id="startBtn">Start</button>
+    <!-- Question Screen -->
+    <div id="timeLeft"></div>
+    <div id="currentQuestion"></div>
+    <div class="question"></div>
+    <div class="answers"></div>
+    <!-- Answers Screen -->
+    <div id="display"></div>
+    <div id="rightAnswer"></div>
+    <div id="gif"></div>
+    <!-- Final Screen -->
+    <div id="finalDisplay"></div>
+    <div id="incorrectAnswers"></div>
+    <div id="correctAnswers"></div>
+    <div id="noAnswer"></div>
+    <div id="restartGame"></div>
+  </div>
 
-
-
-
-
-  
-<script type="text/javascript" src="./assets/javascript/app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script type="text/javascript" src="./assets/javascript/app.js"></script>
 
 </body>
+
 </html>
