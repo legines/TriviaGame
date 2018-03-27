@@ -1,5 +1,7 @@
 # TriviaGame
 
+[Click me to play The Wire Trivia!](https://legines.github.io/TriviaGame/)
+
 A trivia game that shows only one question until the player answers it or their time runs out.
 
 1. If the player selects the correct answer, a congratulations screen is shown. 
